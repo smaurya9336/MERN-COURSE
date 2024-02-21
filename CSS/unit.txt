@@ -1,0 +1,9 @@
+font-size units in Css
+absolute           Relative
+px                  %
+pt                   em
+pc                   rem
+cm                     ch
+mm                      vh
+in                      vw+many more
+  96px=1 inch
