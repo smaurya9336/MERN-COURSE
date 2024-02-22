@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"/>
+        <br><br>
+       <label for="pass">Password</label>
+       <input type="password" id="pass" name="pass"/>
+       <br><br>
+       <label for="mobile">Mobile No</label>
+       <input type="number" id="mobile" name="mobile"/>
+       <br><br>
+       <label for="gen">Gender</label>
+       <input type="radio" id="gen" name="gen"/>Male
+       <input type="radio" id="gen" name="gen"/>Female
+        <h2>Subject</h1>
+        <lable for="h">Hindi</lable>
+       <input type="checkbox" checked/>
+       <label for="e">English</label>
+       <input type="checkbox"/>
+       <lable for="s">Science</lable>
+       <input type="checkbox"/>
+       <label for="m">Math</label>
+       <input type="checkbox"/>
+       <label for="ss">Social Science</label>
+       <input type="checkbox"/>
+      <div>
+       <!-- Dropdown -->
+       Choose your profession
+       <select name="profession" id="profession">
+        <option value="student">Student</option>
+        <option value="dev">Developer</option>
+        <option value=""></option>
+       </select>
+       <br>
+       <button>submit</button>
+       </div>
+       <input type="range" min="0" max="100" name="vol" />
+       <textarea name="feedback" id="feedback" cols="20" rows="10">Feedback</textarea>
+    </form>
+</body>
+</html>
