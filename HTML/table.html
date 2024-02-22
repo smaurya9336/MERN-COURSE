@@ -10,14 +10,23 @@
     <p>Tables are used to represent real life table data.</p>
     <hr>
     <center>
-    <table border="1" cellpadding="10px" cellspacing="0">
-        <caption>Student Data</caption>
+    <table border="black" cellpadding="10px" cellspacing="0">
+        <!-- <caption>Student Data</caption> -->
+        <caption>Food Menu</caption>
+       <!--  table header
+        
+        <thead>
         <tr>
             <th>Roll No</th>
             <th>Name</th>
             <th>Branch</th>
             <th>Year</th>
         </tr>
+    </thead>
+-->
+    <!-- table body -->
+    <!--
+    <tbody>
         <tr>
             <td>2203600109001</td>
             <td>Harsh verma</td>
@@ -37,6 +46,37 @@
             <td>CSE</td>
             <td>3rd</td>
         </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>some</td>
+        </tr>
+    </tfoot> -->
+    <!-- Colspan & Rowspan -->
+    <thead>
+        <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>
+    
+        </tr>
+        <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+    </thead>
+    
+   <tbody>
+    <tr>
+        <td>Frooti</td>
+        <td>10</td>
+        <td>1.2</td>
+    </tr>
+    <tr>
+        <td>Samosa</td>
+        <td>10</td>
+        <td>0.12</td>
+    </tr>
+   </tbody>
     </table>
 </center>
 </body>
