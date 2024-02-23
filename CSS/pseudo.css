@@ -1,0 +1,30 @@
+p:hover{
+    color: blue;
+    background-color: black;
+}
+button:hover{
+    background-color: blue;
+    color: azure;
+    font-family: 'Courier New';
+}
+button:active{
+    background-color: magenta;
+}
+p:active{
+    font-weight: 700;
+    color: mediumvioletred;
+    background-color: aliceblue;
+}
+input[type="radio"]:checked + label{ 
+    color: red;
+    font-weight: bold;
+}
+p:nth-of-type(2){
+    color: blueviolet;
+}
+h1::first-letter{
+    color: red;
+}
+p::first-line{
+    color: green;
+}
