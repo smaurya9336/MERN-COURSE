@@ -1,6 +1,48 @@
-.face{
+body{
+    margin: 0;
+    padding: 0;
+}
+.smiley{
+    border: 5px solid black;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
     width: 400px;
     height: 400px;
     background-color: #ffa511;
+
+}
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: maroon;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.left-eyes,.right-eyes{
     border-radius: 50%;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: 100px;
+    display: inline-block;
+}
+.right-eyes{
+    left: 250px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
 }
