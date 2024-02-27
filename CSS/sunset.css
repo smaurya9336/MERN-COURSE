@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 body{
+    height: 100vh;
+    width: 100%;
     background-color: #ccccff;
     margin: 0;
     overflow-y: hidden;
     animation: sky 5.5s 2s forwards;
+    position: relative;
 }
 @keyframes sky{
     50%{
@@ -12,15 +21,17 @@ body{
         background-color: #ffb90f;
     }
     85%{
-        background-color: #b39800;
+        background-color: #b39300;
     }
     100%{
-        background-color: #88228b;
+        background-color: #68228b;
     }
 }
 img{
     position: absolute;
     bottom: 0;
+    width: 100%;
+    height: 200px
 }
 .sun{
     background-color: #ff8c1a;
@@ -28,8 +39,8 @@ img{
     width: 100px;
     border-radius: 50%;
     position: absolute;
-    left: 50%;
-    box-shadow: 0px 0px 20px 5px #ff8c1a;
+    left: 70%;
+    box-shadow: 0px 0px 20px 10px #ff8c1a;
     animation: sunset 15s forwards;
 
 }
@@ -43,9 +54,9 @@ img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    box-shadow: -20px 10px white;
+    box-shadow: 20px 10px white;
     position: absolute;
-    left: 10%;
+    right: 10%;
     top: 5%;
     opacity: 0;
     animation: moon 0.8s 7s forwards;
@@ -55,3 +66,123 @@ img{
         opacity: 1;
     }
 }
+.cloud{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cloud1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 600px;
+    z-index: 10;
+    animation: animateCloud 50s linear infinite;
+}
+.cloud2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 500px;
+    z-index: 10;
+    animation: animateCloud 35s linear infinite;
+}
+.cloud3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 600px;
+    z-index: 10;
+    animation: animateCloud 80s linear infinite;
+}
+
+.cloud4{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    max-width: 300px;
+    z-index: 10;
+    animation: animateCloud 70s linear infinite;
+    animation-delay: -20s;
+}
+.cloud5{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    max-width: 500px;
+    z-index: 10;
+    animation: animateCloud 40s linear infinite;
+    animation-delay: -5s;
+}
+.cloud6{
+    position: absolute;
+    top: 75px;
+    left: 0;
+    max-width: 400px;
+    z-index: 10;
+    animation: animateCloud 30s linear infinite;
+    animation-delay: -10s;
+}
+@keyframes animateCloud{
+    0%{
+        transform: translateX(-100%) scale(1);
+    }
+   100%{
+        transform: translateX(400%) scale(1.2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
