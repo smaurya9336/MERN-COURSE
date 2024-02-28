@@ -1,0 +1,36 @@
+#outer{
+    height: 300px;
+    width: 80%;
+    background: skyblue;
+    display: flex;    
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+/* flex-direction: row-reverse; */
+/* flex-direction: column; */
+
+}
+.left{
+    width: 100px;
+    height: 100px;
+    background: red;
+    text-align: center;
+    color: white;
+    
+}
+.mid{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    text-align: center;
+    color: white;
+    
+}
+.right{
+    width: 100px;
+    height: 100px;
+    background: green;
+    text-align: center;
+    color: white;
+    
+   
+}
