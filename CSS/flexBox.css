@@ -4,37 +4,48 @@
     background: skyblue;
     display: flex;    
     margin: 10px auto;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* flex-direction: column-reverse; */
 /* flex-direction: row-reverse; */
-/* flex-direction: column; */
+flex-direction: column;
 justify-content: flex-start;
 /* justify-content: space-between; */
 /* justify-content: space-around; */
 /* justify-content: space-evenly; */
 /* flex-wrap: nowrap; */
-/* flex-wrap: wrap; */
-flex-wrap: wrap-reverse;
+flex-wrap: wrap;
+/* flex-wrap: wrap-reverse; */
+/* align-items: flex-start; */
+/* align-items: flex-end; */
+/* align-items: self-start; */
+/* align-items: center; */
+/* align-items: baseline; */
+/* align-content: flex-start; */
+/* align-content:center; */
+/* align-self: flex-start; */
+
 }
 .left{
-    width: 300px;
+    width: 100px;
     height: 100px;
-    background: red;
+    background: orange;
     text-align: center;
     color: white;
+    flex-basis: 200px;
+    font-size: 30px;
 }
 .mid{
-    width: 300px;
+    width: 100px;
     height: 100px;
-    background: blue;
+    background: salmon;
     text-align: center;
     color: white;
     
 }
 .right{
-    width: 300px;
+    width: 100px;
     height: 100px;
-    background: green;
+    background: magenta;
     text-align: center;
     color: white; 
 }
