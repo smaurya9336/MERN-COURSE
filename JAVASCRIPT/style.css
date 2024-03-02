@@ -59,14 +59,14 @@ input{
     padding: 10px;
 }
 input::placeholder{
-    color: #1e008d;
+    color: black;
 
 }
 button{
     border: none;
     outline: none;
     padding: 16px 30px;
-    background-color: #26062f;
+    background-color:navy;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -93,14 +93,14 @@ ul li::before{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-image: url(unchecked.png);
+    background-image: url(uncheked.png);
     background-size: cover;
     position: center;
     top: 12px;
     left: 8px;
 }
 ul li.checked{
-    background: #3700a4;
+    background: navy;
     color: #fff;
     border-radius: 50px;
 }
