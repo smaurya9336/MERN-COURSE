@@ -1,0 +1,10 @@
+let firstName="Sarita";
+let lastName="Maurya";
+console.log(firstName +" "+lastName);
+console.log(typeof firstName);
+console.log("Rakhi".length);
+console.log(firstName.length);
+console.log(firstName[0]);
+console.log(firstName[6-1]);
+let name="apnacollege"+123;
+console.log(name);
