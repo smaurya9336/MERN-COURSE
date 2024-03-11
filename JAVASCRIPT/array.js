@@ -1,8 +1,8 @@
 // Array
 
 const myArr=[0,1,4,8,5]
-// const myHeros=["Saktiman","Najraj"]
-// const myArr2=[30,20,3,8,6]
+const myHeros=["Saktiman","Najraj"]
+const myArr2=[30,20,3,8,6]
 // console.log(myArr[1]);
 // console.log(myArr2[2]);
 // console.log(myArr);
@@ -30,6 +30,7 @@ console.log("B",myArr);
 const myn2=myArr.splice(1,3)
 console.log(myn2);
 console.log("C ",myArr);
+
 
 
 
