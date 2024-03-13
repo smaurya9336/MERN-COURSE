@@ -84,3 +84,17 @@ console.log(monthName);
 let technology=["C","C++","HTML","JAVASCRIPT","PYTHON","JAVA","C#","SQL"]
 console.log(technology.reverse());
 console.log(technology.indexOf("JAVA"));
+
+const arr=[1,2,3,4]
+console.log(arr);
+arr.push(5);
+console.log(arr);
+
+
+//nested array
+
+let game_arr=[["X",null,"O"],[null,"X",null],["O",null,"X"]]
+console.log(game_arr[0][1]);
+console.log(game_arr);
+game_arr[0][1]="O"
+console.log(game_arr);
