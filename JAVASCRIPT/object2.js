@@ -72,5 +72,14 @@ const course={
 
 
 const {courseInstructor:Instructor}=course
-console.log(Instructor);
+// console.log(Instructor);
+
+
+
+
+// {
+//     name:"sarita",
+//     coursename:"js in hindi",
+//     price:"free"
+// }
 
