@@ -25,3 +25,4 @@ jsUser.email="sm7767119@gmail.com"
 console.log(jsUser.email);
 Object.freeze(jsUser)
 console.log(jsUser.email);
+
