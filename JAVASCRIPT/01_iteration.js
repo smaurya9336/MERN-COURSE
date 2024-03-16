@@ -2,9 +2,9 @@
 
 for(let i=1;i<=10;i++){
     if(i==5){
-        console.log("5 is best number");
+        // console.log("5 is best number");
     }
-    console.log(i);
+    // console.log(i);
 }
 //
 
@@ -28,15 +28,27 @@ for (let index = 0; index < myArray.length; index++) {
 
 for(let i=1;i<=10;i++){
     if(i==5){
-        console.log(`5 is best number`);
+        // console.log(`5 is best number`);
         // break;
         continue;
 
     }
-    console.log(`Value of i is ${i}`);
+    // console.log(`Value of i is ${i}`);
     
 }
 
+//
+
+for (let index = 1; index <= 15; index=index+2) {
+    
+//   console.log(index);
+    
+}
+
+for (let index = 2; index <= 1000; index=index+2) {
+    console.log(index);
+    
+}
 
 
 
