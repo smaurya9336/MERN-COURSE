@@ -1,17 +1,27 @@
-.canvas span{
-    width: 100px;
-    height: 100px;
-
+.canvas{
+    margin: auto 100px;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+   
 }
 #grey{
-    height: 100px;
-    width: 100px;
+  
     background: gray;
 
 }
 #yellow{
-    height: 100px;
-    width: 100px;
+    
     background: yellow;
 
+}
+#blue{
+    background-color: blue;
+}
+#white{
+    background-color: #fff;
 }
