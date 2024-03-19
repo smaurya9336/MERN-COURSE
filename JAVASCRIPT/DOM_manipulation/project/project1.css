@@ -1,0 +1,17 @@
+.canvas span{
+    width: 100px;
+    height: 100px;
+
+}
+#grey{
+    height: 100px;
+    width: 100px;
+    background: gray;
+
+}
+#yellow{
+    height: 100px;
+    width: 100px;
+    background: yellow;
+
+}
