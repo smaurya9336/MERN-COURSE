@@ -1,10 +1,9 @@
 let listContainer=document.getElementById("list-container");
-
-let inputBox=document.getElementById('input-box')
+let inputBox=document.getElementById('input-box');
 
 function addTask(){
     if(inputBox.value==''){
-        alert("Add your task")
+        alert("Add your task");
         
     }
     else{
@@ -38,6 +37,5 @@ function saveData(){
 }
 function showData(){
     listContainer.innerHTML= localStorage.getItem('task')
-
 }
 showData()

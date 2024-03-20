@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guessing Game</title>
+    <link rel="stylesheet" href="project4.css">
 </head>
 <body>
     <nav>
@@ -19,7 +20,16 @@
         <br>
         <form class="form">
             <label for="guessField" id="guess">Guess a Number</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
         </form>
+<div class="resultParas">
+    <p>Previous Guesses:<span class="Guesses"></span></p>
+    <p>Guessses Remaining : <span class="lastResult">10</span></p>
+    <p class="lowOrHi"></p>
+</div>
     </div>
+
+    <script src="project4.js"></script>
 </body>
 </html>
