@@ -24,7 +24,7 @@
            results.innerHTML=`<span>${bmi}</span>`
             weightGuide.innerHTML=`Under Weight = less than 18.6`
            }
-           else if(weight< 18.6 && weight == 24.9){
+           else if(weight< 18.6 || weight === 24.9){
             const bmi= (weight / ((height*height)/10000).toFixed(2));
           //show the results
           results.innerHTML=`<span>${bmi}</span>`
