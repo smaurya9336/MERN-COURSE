@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyBoard events</title>
+</head>
+<body>
+    <input type="text" placeholder="enter your name">
+
+    <button>click me!</button>
+    <script>
+     let input=document.querySelector("input")
+     input.addEventListener('keydown',function(){
+     input.style.backgroundColor="blue";
+    });
+
+    let input1=document.querySelector("input")
+     input.addEventListener('keyup',function(){
+     input1.style.backgroundColor="red";
+    });
+
+    let btn=document.querySelector("button");
+    btn.addEventListener('click',function(){
+    btn.style.backgroundColor="green";
+});
+
+
+
+    </script>
+</body>
+</html>
