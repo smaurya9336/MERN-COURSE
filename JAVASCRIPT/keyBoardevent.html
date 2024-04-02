@@ -6,10 +6,21 @@
     <title>keyBoard events</title>
 </head>
 <body>
+    <input type="text" id="name" placeholder="username">
     <input type="text" placeholder="enter your name">
 
     <button>click me!</button>
+
+
     <script>
+
+    let username=document.querySelector('#username');
+    username.addEventListener('arrowLeft',function(){
+        username.style.backgroundColor=""
+
+    })
+
+
      let input=document.querySelector("input")
      input.addEventListener('keydown',function(){
      input.style.backgroundColor="blue";
