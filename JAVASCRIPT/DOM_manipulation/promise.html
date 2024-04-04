@@ -20,24 +20,30 @@ function changeColor(color,delay){
         },delay)
     })
 }
+async function demo(){
+    await changeColor("red",1000);
+    await changeColor("orange",1000);
+    await changeColor("green",1000);
+    changeColor("blue",1000);
+}
+demo();
+// changeColor("red",1000)
+// .then(()=>{
+//     console.log("red color was completed");
+//     return changeColor("orange",1000);
+// })
+// .then(()=>{
+//     console.log("orange color was completed");
+//     return changeColor("green",1000);
+// })
+// .then(()=>{
+//     console.log("green color was complteed");
+//     return changeColor("blue",1000);
 
-changeColor("red",1000)
-.then(()=>{
-    console.log("red color was completed");
-    return changeColor("orange",1000);
-})
-.then(()=>{
-    console.log("orange color was completed");
-    return changeColor("green",1000);
-})
-.then(()=>{
-    console.log("green color was complteed");
-    return changeColor("blue",1000);
-
-})
-.then(()=>{
-    console.log("blue color was completed");
-});
+// })
+// .then(()=>{
+//     console.log("blue color was completed");
+// });
 
     function savetoDb(){
         return new Promise((resolve, reject)=>{
