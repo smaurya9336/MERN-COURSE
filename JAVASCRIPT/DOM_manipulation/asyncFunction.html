@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mern Stack developer</h1>
+</body>
+<script>
+    async function greet(){
+        // throw "some random error";
+        return "hello";
+    }
+    greet()
+   .then((result)=>{
+    console.log("promise was successfull.",result);
+
+   })
+   .catch((err)=>{
+    console.log("promise was rejected.",err);
+
+   })
+
+   let demo=async()=>{
+    return 5;
+   }
+</script>
+</html>
