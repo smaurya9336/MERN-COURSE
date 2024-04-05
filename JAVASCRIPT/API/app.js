@@ -15,6 +15,9 @@ btn.addEventListener("click",async()=>{
 function show(colArr){
     for (col of colArr) {
         console.log(col.name);
+        let li=document.createElement("li");
+        li.innerText=col.name;
+        list.appendChild(li);
         
     }
 
