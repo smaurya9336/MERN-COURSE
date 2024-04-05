@@ -14,16 +14,16 @@ let btn=document.querySelector("button");
 
 
 btn.addEventListener("click",async ()=>{
-    // let fact= await getFacts();
-    // // console.log(fact);
-    // let p=document.querySelector("#result");
-    // p.innerText=fact;
+   let link=await getImage();
+//    console.log(link);
+    let img=document.querySelector("img");
+    img.setAttribute("src",link)
 });
 
 async function getImage(){
     try{
         let res=await axios.get(url2);
-        console.log(res.data.message);
+        return res.data.message;
     }
     catch(e){
         console.log("error",e);
