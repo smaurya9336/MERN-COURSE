@@ -61,3 +61,29 @@ const promiseFour=new Promise((resolve,reject)=>{
     console.log("promise Finally resolved or rejected");
 
 })
+
+
+const promiseFive=new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+    
+        let err=true
+        if(!err){
+            resolve({username:"JavaScript",password:123})
+
+        }else{
+            reject("ERROR:JS went wrong")
+        }
+    
+    },1000)
+});
+
+async function consumePromiseFive(){
+    try{
+    const response=await promiseFive
+    console.log(response);
+    }catch(err){
+        console.log(err);
+    }
+}
+
+consumePromiseFive();
