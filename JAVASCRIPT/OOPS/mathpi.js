@@ -13,13 +13,13 @@ const chai={
     }
 }
 console.log(Object.getOwnPropertyDescriptor(chai,"name"));
-// Object.defineProperty(chai,'name',{
-//     writable:false,
-//     enumerable:false
+Object.defineProperty(chai,'name',{
+    // writable:false,
+    enumerable:true
 
-// })
+})
 
-// console.log(Object.getOwnPropertyDescriptor(chai,"name"));
+console.log(Object.getOwnPropertyDescriptor(chai,"name"));
 
 for (let [key,value] of Object.entries(chai)) {
     if(typeof value !=='function'){
@@ -27,6 +27,4 @@ for (let [key,value] of Object.entries(chai)) {
 
 
     }
-    
-    
 }
