@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>closure in js</title>
+</head>
+<body>
+  
+</body>
+<script>
+  // lexical scoping1
+  function init() {
+    var name = "Mozilla"; 
+    function displayName() {
+      console.log(name); 
+    }
+    displayName();
+  }
+  init();
+
+  // lexical scoping2
+
+  function outer(){
+    let username="sarita"
+    function inner(){
+      let password="123"
+      console.log("inner",username);
+    }
+    inner();
+
+    function innerTwo(){
+      console.log("inner two",username);
+      // console.log("inner password",password);
+    }
+    innerTwo();
+
+  }
+  outer();
+  console.log("too outer",username);
+  
+</script>
+</html>
